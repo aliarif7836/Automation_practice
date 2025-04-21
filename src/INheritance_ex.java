@@ -1,11 +1,11 @@
 public class INheritance_ex {
     public static void main(String[] args) {
         Teacher t1 = new Teacher();
-        t1.name = "Dr. Emily Clark";
+        t1.name = "Arif";
         t1.age = 40;
         t1.subject = "Physics";
 
-        // Call methods
+
         System.out.println("Calling showTeacherInfo():");
         t1.showTeacherInfo();
 
